@@ -20,6 +20,7 @@
     <div class="col-sm-6">
         <form>
             <div class="form-group">
+                <label for="nomeAluno">Aluno</label><hr>
 
                 <label for="nomeAluno">Nome do Aluno</label>
                 <input type="text" class="form-control mb-2" id="nomeAluno" placeholder="Nome do Aluno">
@@ -27,24 +28,81 @@
                 <label for="dataNascimentoAluno">Data de Nascimento</label>
                 <input type="date" class="form-control mb-2" id="dataNascimentoAluno" placeholder="Data de Nascimento">
 
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-control" aria-label="Default select example">
                     <option selected>Sexo</option>
                     <option value="Mas">Masculino</option>
                     <option value="Fem">Feminino</option>
-                  </select>
+                  </select><br>
 
                 <label for="rgAluno">RG</label>
                 <input type="text" class="form-control mb-2" id="rgAluno" placeholder="RG">
 
                 <label for="cpfAluno">CPF</label>
-                <input type="text" class="form-control mb-2" id="cpfAluno" placeholder="CPF">
+                <input type="text" class="form-control mb-2" id="cpfAluno" placeholder="CPF"><br><br>
+                
+                <label>Endereço</label><hr>
 
-                <label for="maeAluno">Nome da Mãe</label>
-                <input type="text" class="form-control mb-2" id="cpfAluno" placeholder="Mãe">
+                <label for="cepAluno">CEP</label>
+                <input type="text" class="form-control mb-2" id="cepAluno" placeholder="CEP">
 
-                <label for="paiAluno">Nome do Pai</label>
-                <input type="text" class="form-control mb-2" id="cpfAluno" placeholder="Pai">
+                <label for="enderecoAluno">Endereço</label>
+                <input type="text" class="form-control mb-2" id="enderecoAluno" placeholder="Endereço">
+
+                <label for="nroEnderecoAluno">Número</label>
+                <input type="text" class="form-control mb-2" id="nroEnderecoAluno" placeholder="Número">
+
+                <label for="bairroEnderecoAluno">Bairro</label>
+                <input type="text" class="form-control mb-2" id="bairroEnderecoAluno" placeholder="Bairro">
+
+                <label for="cidadeEnderecoAluno">Cidade</label>
+                <input type="text" class="form-control mb-2" id="cidadeEnderecoAluno" placeholder="Cidade">
+
+                <select class="form-control" aria-label="Default select example">
+                    <option selected>UF</option>
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="MG">MG</option>
+                    <option value="BA">BA</option>
+                  </select><br>
+
+                <label for="nomeAluno">Responsáveis</label><hr>
+
+                <label for="nomeMaeAluno">Nome da Mãe</label>
+                <input type="text" class="form-control mb-2" id="nomeMaeAluno" placeholder="Mãe">
+
+                <label for="cpfMaeAluno">CPF da Mãe</label>
+                <input type="text" class="form-control mb-2" id="cpfMaeAluno" placeholder="CPF Mãe">
+
+                <label for="nomePaiAluno">Nome do Pai</label>
+                <input type="text" class="form-control mb-2" id="nomePaiAluno" placeholder="Pai">
+
+                <label for="cpfPaiAluno">Nome do Pai</label>
+                <input type="text" class="form-control mb-2" id="cpfPaiAluno" placeholder="CPF Pai"><br>
+
+                <label for="nomeAluno">Educação</label><hr>
+                <select class="form-control" aria-label="Default select example">
+                    <option selected>Tipo de Educação</option>
+                    <!-- Ensino Fundamental I -->
+                    <option value="EF1">1º Ano do Ensino Fundamental I</option>
+                    <option value="EF2">2º Ano do Ensino Fundamental I</option>
+                    <option value="EF3">3º Ano do Ensino Fundamental I</option>
+                    <option value="EF4">4º Ano do Ensino Fundamental I</option>
+                    <option value="EF5">5º Ano do Ensino Fundamental I</option>
+                    <!-- Ensino Fundamental II -->
+                    <option value="EF6">6º Ano do Ensino Fundamental II</option>
+                    <option value="EF7">7º Ano do Ensino Fundamental II</option>
+                    <option value="EF8">8º Ano do Ensino Fundamental II</option>
+                    <option value="EF9">9º Ano do Ensino Fundamental II</option>
+
+                    <option value="EI2">Ensino Fundamental II</option>
+                    <option value="1EM">1º Ano do Ensino Médio</option>
+                    <option value="2EM">2º Ano do Ensino Médio</option>
+                    <option value="3EM">3º Ano do Ensino Médio</option>
+                </select><br>
             </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
         </form>
     </div>
     
